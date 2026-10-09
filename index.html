@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tapas Platters · World & India</title><meta name="theme-color" content="#c8442b">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🍽️</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="drink" viewBox="0 0 48 48"><path d="M30 4l-4 14" stroke="#7a4a2a" stroke-width="2.5" stroke-linecap="round"/><path d="M12 14h24l-3 28H15z" fill="currentColor"/><path d="M13 22h22" stroke="#fff6" stroke-width="3"/></symbol>
+<symbol id="bread" viewBox="0 0 48 48"><ellipse cx="24" cy="25" rx="20" ry="15" fill="currentColor"/><g fill="#0003"><circle cx="16" cy="22" r="2"/><circle cx="28" cy="18" r="2"/><circle cx="30" cy="30" r="2.5"/><circle cx="18" cy="31" r="1.8"/></g></symbol>
+<symbol id="snack1" viewBox="0 0 48 48"><circle cx="24" cy="24" r="17" fill="currentColor"/><g fill="#fff5"><circle cx="18" cy="19" r="2.5"/><circle cx="29" cy="25" r="2"/><circle cx="21" cy="30" r="1.8"/></g></symbol>
+<symbol id="snack2" viewBox="0 0 48 48"><rect x="6" y="12" width="36" height="24" rx="12" fill="currentColor"/><path d="M14 20q10-5 20 0" stroke="#fff5" stroke-width="3" fill="none" stroke-linecap="round"/></symbol>
+<symbol id="main" viewBox="0 0 48 48"><path d="M3 22h42a21 21 0 01-42 0z" fill="currentColor"/><path d="M10 22q14-14 28 0z" fill="#fff8e7"/><path d="M18 10q-3-4 0-8M25 10q-3-4 0-8M32 10q-3-4 0-8" stroke="#0004" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+<symbol id="dip" viewBox="0 0 48 48"><path d="M6 24h36a18 18 0 01-36 0z" fill="#fff8e7" stroke="#6b4a2b" stroke-width="2"/><ellipse cx="24" cy="24" rx="18" ry="6" fill="currentColor"/></symbol>
+<symbol id="dessert" viewBox="0 0 48 48"><rect x="8" y="8" width="32" height="32" rx="6" transform="rotate(45 24 24)" fill="currentColor"/><circle cx="24" cy="24" r="4" fill="#fff8"/></symbol>
+</defs></svg>
+<header class="hero"><div class="wrap"><p class="eyebrow">A World & India Cuisine Guide</p>
+<h1>Tapas <em>Platters</em></h1><p class="sub">231 vegetarian platters. Drink · Bread · 2 Snacks · Main · 2 Dips · Dessert.</p>
+<div class="bar"><input id="q" type="search" placeholder="Search a place, dish or ingredient…" aria-label="Search">
+<button id="rnd" class="btn">🎲 Surprise me</button><button id="cartBtn" class="btn alt">🛒 <span id="cc">0</span></button></div>
+<div class="chips" id="chips"></div></div></header>
+<div class="wrap tools"><button class="chip" id="exp">⬇ Export saved recipes</button><button class="chip" id="bj">⬇ Backup list</button><button class="chip" id="imp">⬆ Import list</button><input type="file" id="fi" accept=".json" hidden></div>
+<main class="wrap" id="app"></main>
+<aside id="drawer" aria-hidden="true"><div class="dh"><h3>Shopping list</h3><button class="x" id="dx">✕</button></div><div id="dl"></div><div class="df"><button class="btn" id="copy">Copy list</button><button class="btn alt" id="clr">Clear</button></div></aside>
+<div id="modal" aria-hidden="true"><div class="card" id="mc"></div></div>
+<footer class="wrap">Made with 🌶️ from the original Vegetarian Tapas-Style Platters guide.<br>Dish photos are loaded live from Wikipedia / Wikimedia Commons (matched by dish name, so a few may be approximate).</footer>
+<script src="data.js"></script><script src="app.js"></script></body></html>
